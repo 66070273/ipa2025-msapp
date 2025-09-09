@@ -1,7 +1,7 @@
 services:
   web:
-    image: 13d4c/web:latest
+    image: 66070273/web:latest
   scheduler:
-    image: 13d4c/scheduler:latest
+    image: 66070273/scheduler:latest
   worker:
-    image: 13d4c/worker:latest
+    image: 66070273/worker:latest
