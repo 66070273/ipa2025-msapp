@@ -36,10 +36,10 @@ jobs:
 
       - name: Build & Push Docker Images
         run: |
-          docker build -t 66070273/web:latest ./web
-          docker build -t 66070273/scheduler:latest ./scheduler
-          docker build -t 66070273/worker:latest ./worker
+          docker build -t teerati/web:latest ./web
+          docker build -t teerati/scheduler:latest ./scheduler
+          docker build -t teerati/worker:latest ./worker
           
-          docker push 66070273/web:latest
-          docker push 66070273/scheduler:latest
-          docker push 66070273/worker:latest
+          docker push teerati/web:latest
+          docker push teerati/scheduler:latest
+          docker push teerati/worker:latest
